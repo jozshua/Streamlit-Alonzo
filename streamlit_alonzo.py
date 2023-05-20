@@ -7,11 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1-COkGSJu3mF8tV6i4kPdUVn_eSLpxGf_
 """
 
-from google.colab import drive
-drive.mount('/content/drive')
-
-!pip install streamlit
-
 import streamlit as st
 import tensorflow as tf
 
